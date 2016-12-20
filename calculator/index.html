@@ -1,0 +1,47 @@
+<html>
+<body bgcolor="orange"><center>
+<form name="calculator">
+<h2>calculator van</h2>
+<table border="2" width="150" height="150" bgcolor="red">
+<tr>
+<td>
+<input type="text" name="text" size="20">
+</td>
+</tr>
+<tr><td><center>
+<input type="button" value="EQUALS" onclick="calculator.text.value = eval(calculator.text.value)"></td>
+</td>
+</tr>
+<tr>
+<td><center>
+<input type="button" value="7" onclick="calculator.text.value += '7'">
+<input type="button" value="8" onclick="calculator.text.value += '8'">
+<input type="button" value="9" onclick="calculator.text.value += '9'">
+<input type="button" value="+" onclick="calculator.text.value += '+'"></td>
+</tr>
+<tr>
+<td><center>
+<input type="button" value="4" onclick="calculator.text.value += '4'">
+<input type="button" value="5" onclick="calculator.text.value += '5'">
+<input type="button" value="6" onclick="calculator.text.value += '6'">
+<input type="button" value="-" onclick="calculator.text.value += '-'"></td>
+</tr>
+<tr>
+<td><center>
+<input type="button" value="1" onclick="calculator.text.value += '1'">
+<input type="button" value="2" onclick="calculator.text.value += '2'">
+<input type="button" value="3" onclick="calculator.text.value += '3'">
+<input type="button" value="/" onclick="calculator.text.value += '/'"></td>
+</tr>
+
+<tr>
+<td><center>
+<input type="button" value="." onclick="calculator.text.value += '.'">
+<input type="button" value="0" onclick="calculator.text.value += '0 '">
+<input type="reset" value="c" >
+<input type="button" value="*" onclick="calculator.text.value += '* '">
+</tr>
+</table>
+</form></center>
+</body>
+</html>
